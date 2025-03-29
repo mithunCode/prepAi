@@ -32,7 +32,7 @@ export async function POST(req: Request) {
       level,
       techStack: techStack.split(","),
       questions: JSON.parse(questions),
-      userId: userId,
+      userid: userId,
       finalized: true,
       coverImage: getRandomInterviewCover(),
       createdAt: new Date().toISOString(),
